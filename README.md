@@ -1,14 +1,14 @@
-# fs
+# npm-fs
 
-This package provides a secure no-op version of the 'fs' package unpublished by npm, Inc.
+This package provides a secure no-op version of the *fs* package unpublished by npm, Inc.
 
-Following the unpublishing incident (see report below), three versions of the *fs* package were then available in the npm repositories:
+Following the npm unpublishing incident (see report below), three versions of the *fs* package were then available in the npm repositories:
 
-- fs@0.0.0 — uninstallable
-- fs@0.0.1-security — inoperative placeholder
-- fs@0.0.2 — re-published original (nuisance)
+- 0.0.0 — uninstallable
+- 0.0.1-security — inoperative placeholder
+- 0.0.2 — re-published original (nuisance)
 
-This version (fs@0.0.3-mjbrown) provides an empty *index.js* file to satisfy dependencies, yet eliminate the console log emitted by the original.
+This version (0.0.3-mjbrown) provides an empty *index.js* file to satisfy dependencies, yet eliminate the console log emitted by the original.
 
 ## [Incident report](http://status.npmjs.org/incidents/dw8cr1lwxkcr)
 
