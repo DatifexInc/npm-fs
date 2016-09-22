@@ -1,0 +1,17 @@
+{
+  "name": "fs",
+  "version": "0.0.3-mjb",
+  "description": "No-op replacement for npm unpublished 'fs' package.",
+  "author": "Murray J Brown <mjb@mjbrown.com> (http://mjbrown.com)",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:murrayjbrown/npm-fs.git"
+  },
+  "scripts": {
+    "test": "echo 'Error: no test specified.' && exit 1",
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
